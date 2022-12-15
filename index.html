@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .upto_25 {
+            padding: 10px;
+            margin: 15px;
+            width: 400px;
+        }
+        .upto_40 {
+            padding: 10px;
+            margin: 15px;
+            width: 400px;
+        }
+        .others {
+            padding: 10px;
+            margin: 15px;
+            width: 400px;
+        }
+        .card {
+            background-color: rgb(204, 204, 204);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .ageWrapper {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            background-color: antiquewhite;
+            border-radius: 5px;
+        }
+    </style>
+
+    <header>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age">
+            <input type="submit" value="Add">
+        </form>
+        <div class="container">
+            <div class="upto_25"></div>
+            <div class="upto_40"></div>
+            <div class="others"></div>
+        </div>
+    </header>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
